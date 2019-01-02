@@ -1,0 +1,48 @@
+.header-container {
+    padding: var(--i-default-padding);
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 hsla(0, 0%, 84%, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+
+    .btn-container {
+        display: inline-block;
+        vertical-align: middle;
+
+        .sign-login-btn {
+            padding: 7px 20px;
+            background: #e3714d;
+            border-radius: 2px;
+            min-width: 60px;
+            border: none;
+            color: #fff;
+            font-size: 12px;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-align: center;
+            padding: 7px 14px;
+        }
+
+        &:hover {
+            color: #fff;
+        }
+        
+    }
+}
+
+// * {
+
+//     &:focus,
+//     &:focus-within,
+//     &:hover,
+//     &:active,
+//     &:visited {
+//         outline: none;
+//         color: #fff;
+//     }
+// }
